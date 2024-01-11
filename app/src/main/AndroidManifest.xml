@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="top.jessi.banner">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        <activity android:name=".BannerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.GalleryActivity" />
+        <activity android:name=".ui.TouTiaoActivity" />
+        <activity android:name=".ui.TVActivity" />
+        <activity android:name=".ui.RecyclerViewBannerActivity" />
+        <activity android:name=".ui.ConstraintLayoutBannerActivity" />
+        <activity android:name=".ui.VideoActivity" />
+        <activity
+            android:name=".ui.Vp2FragmentRecyclerviewActivity" />
+
+    </application>
+
+</manifest>
