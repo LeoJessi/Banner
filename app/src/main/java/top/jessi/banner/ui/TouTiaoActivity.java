@@ -9,9 +9,9 @@ import com.google.android.material.snackbar.Snackbar;
 import top.jessi.banner.adapter.TopLineAdapter;
 import top.jessi.banner.bean.DataBean;
 import top.jessi.banner.databinding.ActivityTouTiaoBinding;
-import top.jessi.banner.youth.Banner;
-import top.jessi.banner.youth.transformer.ZoomOutPageTransformer;
-import top.jessi.banner.youth.util.LogUtils;
+import top.jessi.banner.Banner;
+import top.jessi.banner.transformer.ZoomOutPageTransformer;
+import top.jessi.banner.util.LogUtils;
 
 public class TouTiaoActivity extends AppCompatActivity {
     private ActivityTouTiaoBinding mBinding;

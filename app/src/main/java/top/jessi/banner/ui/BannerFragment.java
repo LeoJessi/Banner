@@ -12,8 +12,8 @@ import androidx.fragment.app.Fragment;
 import top.jessi.banner.adapter.ImageNetAdapter;
 import top.jessi.banner.bean.DataBean;
 import top.jessi.banner.databinding.BannerBinding;
-import top.jessi.banner.youth.indicator.RectangleIndicator;
-import top.jessi.banner.youth.util.BannerUtils;
+import top.jessi.banner.indicator.RectangleIndicator;
+import top.jessi.banner.util.BannerUtils;
 
 public class BannerFragment extends Fragment {
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <top.jessi.banner.youth.Banner
+    <top.jessi.banner.Banner
         android:id="@+id/banner1"
         android:layout_width="match_parent"
         android:layout_height="140dp"
@@ -14,7 +14,7 @@
         banner:banner_indicator_normal_color="@android:color/white"
         banner:banner_indicator_selected_color="@color/colorPrimary" />
 
-    <top.jessi.banner.youth.Banner
+    <top.jessi.banner.Banner
         android:id="@+id/banner2"
         android:layout_width="match_parent"
         android:layout_height="140dp"
@@ -23,7 +23,7 @@
         banner:banner_indicator_normal_color="@android:color/white"
         banner:banner_indicator_selected_color="@color/colorPrimary" />
 
-    <top.jessi.banner.youth.indicator.DrawableIndicator
+    <top.jessi.banner.indicator.DrawableIndicator
         android:id="@+id/indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

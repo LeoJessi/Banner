@@ -8,10 +8,10 @@ import top.jessi.banner.R;
 import top.jessi.banner.adapter.ImageTitleAdapter;
 import top.jessi.banner.bean.DataBean;
 import top.jessi.banner.databinding.ActivityConstraintLayoutBannerBinding;
-import top.jessi.banner.youth.config.BannerConfig;
-import top.jessi.banner.youth.config.IndicatorConfig;
-import top.jessi.banner.youth.indicator.CircleIndicator;
-import top.jessi.banner.youth.util.BannerUtils;
+import top.jessi.banner.config.BannerConfig;
+import top.jessi.banner.config.IndicatorConfig;
+import top.jessi.banner.indicator.CircleIndicator;
+import top.jessi.banner.util.BannerUtils;
 
 
 public class ConstraintLayoutBannerActivity extends AppCompatActivity {

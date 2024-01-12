@@ -7,7 +7,6 @@ import java.util.List;
 
 import top.jessi.banner.bean.DataBean;
 import top.jessi.banner.viewholder.ImageHolder;
-import top.jessi.banner.youth.adapter.BannerAdapter;
 
 
 /**

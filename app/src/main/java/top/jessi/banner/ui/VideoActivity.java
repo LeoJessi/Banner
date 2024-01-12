@@ -9,8 +9,8 @@ import top.jessi.banner.adapter.MultipleTypesAdapter;
 import top.jessi.banner.bean.DataBean;
 import top.jessi.banner.databinding.ActivityVideoBinding;
 import top.jessi.banner.indicator.NumIndicator;
-import top.jessi.banner.youth.config.IndicatorConfig;
-import top.jessi.banner.youth.listener.OnPageChangeListener;
+import top.jessi.banner.config.IndicatorConfig;
+import top.jessi.banner.listener.OnPageChangeListener;
 
 /**
  * 仿淘宝商品详情，banner第一个放视频,然后首尾不能自己滑动，加上自定义数字指示器

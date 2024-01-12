@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import top.jessi.banner.adapter.ImageAdapter;
 import top.jessi.banner.bean.DataBean;
 import top.jessi.banner.databinding.ActivityGalleryBinding;
-import top.jessi.banner.youth.indicator.CircleIndicator;
+import top.jessi.banner.indicator.CircleIndicator;
 
 
 public class GalleryActivity extends AppCompatActivity {

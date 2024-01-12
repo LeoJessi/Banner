@@ -11,7 +11,7 @@ import top.jessi.banner.adapter.ImageAdapter;
 import top.jessi.banner.bean.DataBean;
 import top.jessi.banner.databinding.ActivityVp2FragmentRecyclerviewBinding;
 import top.jessi.banner.util.TabLayoutMediator;
-import top.jessi.banner.youth.indicator.CircleIndicator;
+import top.jessi.banner.indicator.CircleIndicator;
 
 public class Vp2FragmentRecyclerviewActivity extends AppCompatActivity {
 

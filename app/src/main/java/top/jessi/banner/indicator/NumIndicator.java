@@ -7,8 +7,7 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 
-import top.jessi.banner.youth.indicator.BaseIndicator;
-import top.jessi.banner.youth.util.BannerUtils;
+import top.jessi.banner.util.BannerUtils;
 
 
 /**

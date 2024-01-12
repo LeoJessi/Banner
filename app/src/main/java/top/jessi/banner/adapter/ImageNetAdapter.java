@@ -9,8 +9,7 @@ import java.util.List;
 import top.jessi.banner.R;
 import top.jessi.banner.bean.DataBean;
 import top.jessi.banner.viewholder.ImageHolder;
-import top.jessi.banner.youth.adapter.BannerAdapter;
-import top.jessi.banner.youth.util.BannerUtils;
+import top.jessi.banner.util.BannerUtils;
 /**
  * 自定义布局，网络图片
  */

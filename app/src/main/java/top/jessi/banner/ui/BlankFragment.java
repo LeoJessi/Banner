@@ -13,9 +13,9 @@ import androidx.fragment.app.Fragment;
 import top.jessi.banner.R;
 import top.jessi.banner.adapter.ImageNetAdapter;
 import top.jessi.banner.bean.DataBean;
-import top.jessi.banner.youth.Banner;
-import top.jessi.banner.youth.indicator.CircleIndicator;
-import top.jessi.banner.youth.util.BannerUtils;
+import top.jessi.banner.Banner;
+import top.jessi.banner.indicator.CircleIndicator;
+import top.jessi.banner.util.BannerUtils;
 
 
 public class BlankFragment extends Fragment {

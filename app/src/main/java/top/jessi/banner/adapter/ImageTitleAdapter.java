@@ -8,7 +8,6 @@ import java.util.List;
 import top.jessi.banner.R;
 import top.jessi.banner.bean.DataBean;
 import top.jessi.banner.viewholder.ImageTitleHolder;
-import top.jessi.banner.youth.adapter.BannerAdapter;
 
 
 /**
