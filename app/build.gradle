@@ -36,6 +36,5 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'com.github.LeoJessi.ScreenSwipe:twinking:1.1.1'
-    implementation 'com.github.LeoJessi:ILog:1.11.111'
     implementation project(':banner')
 }

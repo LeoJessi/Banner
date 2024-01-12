@@ -37,7 +37,6 @@ public class VideoActivity extends AppCompatActivity {
 
                     @Override
                     public void onPageSelected(int position) {
-                        Log.e("--","position:"+position);
                         stopVideo(position);
                     }
 

@@ -11,7 +11,6 @@ import top.jessi.banner.bean.DataBean;
 import top.jessi.banner.databinding.ActivityTouTiaoBinding;
 import top.jessi.banner.Banner;
 import top.jessi.banner.transformer.ZoomOutPageTransformer;
-import top.jessi.banner.util.LogUtils;
 
 public class TouTiaoActivity extends AppCompatActivity {
     private ActivityTouTiaoBinding mBinding;
@@ -28,7 +27,6 @@ public class TouTiaoActivity extends AppCompatActivity {
                .setPageTransformer(new ZoomOutPageTransformer())
                .setOnBannerListener((data, position) -> {
                    Snackbar.make(mBinding.banner, ((DataBean) data).title, Snackbar.LENGTH_SHORT).show();
-                   LogUtils.d("position：" + position);
                });
 
     }

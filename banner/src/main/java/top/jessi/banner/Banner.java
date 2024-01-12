@@ -140,13 +140,9 @@ public class Banner<T, BA extends BannerAdapter<T, ? extends RecyclerView.ViewHo
             int count = getItemCount();
             switch (keyCode) {
                 case KeyEvent.KEYCODE_DPAD_LEFT:
-                    Log.d("TAG", "向左");
+                    if (count == 0) return true;
+                    stop();
                     int prev = (getCurrentItem() - 1) % count;
-                    if (prev == 0) {
-                        prev = getRealCount();
-                    } else if (prev == count - 1) {
-                        prev = 1;
-                    }
                     // smoothScroll设置为true可以让动画平滑过渡
                     setCurrentItem(prev, true);
                     if (getIndicator() != null) {
@@ -154,21 +150,20 @@ public class Banner<T, BA extends BannerAdapter<T, ? extends RecyclerView.ViewHo
                         int real = BannerUtils.getRealPosition(isInfiniteLoop(), getCurrentItem(), getRealCount());
                         getIndicator().onPageSelected(real);
                     }
+                    start();
                     return true;
                 case KeyEvent.KEYCODE_DPAD_RIGHT:
-                    Log.d("TAG", "向右");
+                    if (count == 0) return true;
+                    stop();
                     int next = (getCurrentItem() + 1) % count;
-                    if (next == 0) {
-                        next = getRealCount();
-                    } else if (next == count - 1) {
-                        next = 1;
-                    }
+                    // smoothScroll设置为true可以让动画平滑过渡
                     setCurrentItem(next, true);
                     if (getIndicator() != null) {
                         //如果没有设置指示器，就不用执行下面两行
                         int real = BannerUtils.getRealPosition(isInfiniteLoop(), getCurrentItem(), getRealCount());
                         getIndicator().onPageSelected(real);
                     }
+                    start();
                     return true;
                 case KeyEvent.KEYCODE_DPAD_CENTER:
                     /*设置在tv中点击回调*/

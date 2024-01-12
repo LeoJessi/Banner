@@ -29,7 +29,6 @@ import top.jessi.banner.holder.BannerImageHolder;
 import top.jessi.banner.indicator.CircleIndicator;
 import top.jessi.banner.indicator.RoundLinesIndicator;
 import top.jessi.banner.util.BannerUtils;
-import top.jessi.ilog.ILog;
 import top.jessi.twinking.RefreshListenerAdapter;
 import top.jessi.twinking.TwinklingRefreshLayout;
 
@@ -51,7 +50,6 @@ public class BannerActivity extends AppCompatActivity {
                 .setIndicator(new CircleIndicator(this))//设置指示器
                 .setOnBannerListener((data, position) -> {
                     Snackbar.make(mBinding.banner, ((DataBean) data).title, Snackbar.LENGTH_SHORT).show();
-                    ILog.d("position：" + position);
                 });
 
         //添加item之间切换时的间距(如果使用了画廊效果就不要添加间距了，因为内部已经添加过了)

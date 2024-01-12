@@ -16,19 +16,16 @@ public class BannerLifecycleObserverAdapter implements LifecycleObserver {
 
     @OnLifecycleEvent(Lifecycle.Event.ON_START)
     public void onStart() {
-        LogUtils.i("onStart");
         mObserver.onStart(mLifecycleOwner);
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_STOP)
     public void onStop() {
-        LogUtils.i("onStop");
         mObserver.onStop(mLifecycleOwner);
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_DESTROY)
     public void onDestroy() {
-        LogUtils.i("onDestroy");
         mObserver.onDestroy(mLifecycleOwner);
     }
 

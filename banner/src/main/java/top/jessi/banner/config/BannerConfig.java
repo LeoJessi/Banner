@@ -27,7 +27,7 @@ import top.jessi.banner.util.BannerUtils;
 public class BannerConfig {
     public static final boolean IS_AUTO_LOOP = true;
     public static final boolean IS_INFINITE_LOOP = true;
-    public static final int LOOP_TIME = 3000;
+    public static final int LOOP_TIME = 10000;
     public static final int SCROLL_TIME = 600;
     public static final int INCREASE_COUNT = 2;
     public static final int INDICATOR_NORMAL_COLOR = 0x88ffffff;

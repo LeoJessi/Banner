@@ -1,10 +1,14 @@
 package top.jessi.banner.ui;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import top.jessi.banner.R;
 import top.jessi.banner.adapter.ImageAdapter;
 import top.jessi.banner.bean.DataBean;
 import top.jessi.banner.databinding.ActivityTVBinding;
@@ -25,11 +29,10 @@ public class TVActivity extends AppCompatActivity {
         mBinding.banner.setIndicator(new CircleIndicator(this));
         mBinding.banner.addPageTransformer(new AlphaPageTransformer());
                 // .addPageTransformer(new RotateUpPageTransformer());
-        mBinding.banner.isAutoLoop(false);
+        mBinding.banner.isAutoLoop(true);
         mBinding.banner.setOnBannerListener(new OnBannerListener<DataBean>() {
             @Override
             public void OnBannerClick(DataBean data, int position) {
-                Toast.makeText(getApplicationContext(),position + " ~~" + data.title,Toast.LENGTH_SHORT).show();
             }
         });
     }
